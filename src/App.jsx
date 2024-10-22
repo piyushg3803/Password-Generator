@@ -39,7 +39,7 @@ function Password() {
 
   return (
     <div className="bg-blue-300 w-full h-screen flex justify-center items-center">
-      <div className="m-auto bg-white w-[40%] p-5 rounded-3xl">
+      <div className="m-auto bg-white w-[40%] p-5 rounded-3xl max-sm:w-[80%]">
         <h1 className="text-center text-3xl mb-5 font-semibold">
           Password Generator
         </h1>
