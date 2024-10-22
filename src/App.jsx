@@ -62,7 +62,7 @@ function Password() {
         </div>
 
         <div className="flex justify-between pt-5">
-          <label className="text-lg">Password Length ({length})</label>
+          <label className="text-lg max-sm:text-md">Password Length ({length})</label>
           <input
             className="w-[40%]"
             type="range"
